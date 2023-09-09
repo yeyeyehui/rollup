@@ -19,7 +19,7 @@ export default {
   // 打包输出文件配置
   output: {
     //输出的文件路径和文件名
-    file: "dist/bundle.cjs.js",
+    file: "build/bundle.cjs.js",
 
     //五种输出的格式 amd/es/iife/umd/cjs
     format: "cjs",
@@ -61,7 +61,7 @@ export default {
     serve({
       open: true,
       port: 8080,
-      contentBase: "./dist",
+      contentBase: "./build",
     }),
   ],
 };
