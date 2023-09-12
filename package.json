@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rollup -c",
     "dev": "rollup --config -w"
   },
   "keywords": [],
@@ -17,6 +17,7 @@
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^13.3.0",
     "@rollup/plugin-typescript": "^8.4.0",
+    "acorn": "^8.10.0",
     "lodash": "^4.17.21",
     "postcss": "^8.4.16",
     "rollup": "^2.79.0",
@@ -27,5 +28,8 @@
     "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.4.0",
     "typescript": "^4.8.2"
+  },
+  "dependencies": {
+    "magic-string": "^0.25.9"
   }
 }
